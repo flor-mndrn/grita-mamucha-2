@@ -11528,6 +11528,11 @@ a:link, a:visited, a:active {
   font-size: 38px;
 }
 
+.no-contador{
+  pointer-events: none;
+  cursor: default;
+}
+
 /*----------- version-mobile---------- */
 
 @media (max-width:1200px) {
