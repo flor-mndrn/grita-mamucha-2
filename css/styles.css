@@ -11512,6 +11512,9 @@ header.masthead h1, header.masthead .h1 {
   background-repeat: no-repeat;
 
 }
+.text-none{
+  user-select:none;
+}
 
 .col-boca{
   height: 400px;
