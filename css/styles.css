@@ -11470,7 +11470,6 @@ header.masthead h1, header.masthead .h1 {
 
 
 /*----------------CSS MNDRN--------------- */
-
 /*----------------CSS MNDRN--------------- */
 #bg-img{
   width:100%;
@@ -11491,13 +11490,11 @@ body{
   background-size: cover;
 }
 
-
-.section-bg{
+.section-bg {
   padding-top: 100px;
-  padding-bottom: 80px;
-
- 
+  padding-bottom: 100px;
 }
+
 
 
 
@@ -11591,6 +11588,28 @@ a:link, a:visited, a:active {
 
 /*----------- version-mobile---------- */
 
+@media (max-width:1400px) {
+.esp-button-titulo{
+  height: 0px;
+}
+
+.esp-top-btn, .esp-top-contador{
+  height: 80px;
+}
+
+.col-boca {
+  height: 370px;
+  padding: 0 100px;
+}
+
+.icono-ig {
+  max-width: 40px;
+}
+.esp-button-contador {
+  height: 10px;
+}
+}
+
 @media (max-width:1200px) {
   .boton{
     margin: 0px;
@@ -11598,6 +11617,10 @@ a:link, a:visited, a:active {
   .col-boca {
     height: 400px;
     padding: 0 30px;
+}
+.section-bg {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 }
@@ -11686,13 +11709,19 @@ body{
     width: 100%;
 }
 
+.boton {
+  padding: 12px 0px 1px 0px;
+  margin: 0 20px;
+}
+
+
 .col-boca {
-  height: 350px;
+  height: 320px;
   padding: 0 30px;
-  margin-top: 35px!important;
+  margin-top: 30px!important;
 }
 .esp-button-btn, .esp-top-contador, .esp-button-btn, .esp-top-btn{
-  height: 50px;
+  height: 30px;
 }
 
 .div-botones{
@@ -11700,7 +11729,7 @@ body{
 }
 
 .boton h3{
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .esp-button-titulo{
@@ -11708,11 +11737,14 @@ body{
 }
 
 .section-bg{
-    padding-top: 75px;
+    padding-top: 55px;
+    padding-bottom: 50px;
 }
 .esp-button-contador{
   height: 0px;
 }
+
+
 }
 @media (max-width:380px) {
 
