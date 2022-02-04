@@ -11512,7 +11512,7 @@ header.masthead h1, header.masthead .h1 {
   background-repeat: no-repeat;
 
 }
-.text-none{
+.text-none::selection{
   user-select:none;
 }
 
