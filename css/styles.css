@@ -11512,8 +11512,11 @@ header.masthead h1, header.masthead .h1 {
   background-repeat: no-repeat;
 
 }
-.text-none::selection{
-  user-select:none;
+.text-none{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select:none;
 }
 
 .col-boca{
