@@ -11531,7 +11531,7 @@ body{
 
 .col-boca{
   height: 400px;
-  padding: 0 80px;
+  padding: 0 130px;
 }
 
 a:link, a:visited, a:active {
@@ -11598,8 +11598,9 @@ a:link, a:visited, a:active {
 }
 
 .col-boca {
-  height: 370px;
-  padding: 0 100px;
+  height: 400px;
+  padding: 0 150px;
+  margin-top:20px!important;
 }
 
 .icono-ig {
@@ -11610,13 +11611,23 @@ a:link, a:visited, a:active {
 }
 }
 
+@media (max-width:1400px) {
+
+  
+  .col-boca {
+    height: 400px;
+    padding: 0 110px;
+  }
+
+  }
+
 @media (max-width:1200px) {
   .boton{
     margin: 0px;
   }
   .col-boca {
-    height: 400px;
-    padding: 0 30px;
+    height: 375px;
+    padding: 0 70px;
 }
 .section-bg {
   padding-top: 80px;
@@ -11646,8 +11657,8 @@ a:link, a:visited, a:active {
 }
 
 .col-boca {
-  height: 450px;
-  padding: 0 140px;
+  height: 400px;
+  padding: 0 175px;
 }
 
 .esp-button-btn, .esp-top-contador{
@@ -11680,13 +11691,16 @@ body{
   
 }
 
+.div-botones{
+  margin-top: 0px!important;
+}
 
 }
 
 @media (max-width:768px) {
   .col-boca {
-    height: 450px;
-    padding: 0 55px;
+    height: 400px;
+    padding: 0 100px;
   }
   .esp-button-btn, .esp-top-contador, .esp-button-btn{
     height: 80px;
@@ -11717,16 +11731,13 @@ body{
 
 .col-boca {
   height: 320px;
-  padding: 0 30px;
-  margin-top: 30px!important;
+  padding: 0 70px;
 }
 .esp-button-btn, .esp-top-contador, .esp-button-btn, .esp-top-btn{
   height: 30px;
 }
 
-.div-botones{
-  margin-top: 0px!important;
-}
+
 
 .boton h3{
   font-size: 22px;
@@ -11748,5 +11759,10 @@ body{
 }
 @media (max-width:380px) {
 
+  .col-boca {
+    height: 320px;
+    padding: 0 50px;
+  }
 
 }
+
