@@ -11634,13 +11634,16 @@ a:link, a:visited, a:active {
 }
 
 .img-contador {
-  width: 200px;
+  width: 160px;
 }
 
 #bg-img{
 
   background:url("../img/fondo1-mb.jpg");
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   z-index:2;
   }
 
@@ -11662,6 +11665,11 @@ body{
   }
   .img-titulo {
     width: 90%;
+}
+
+.icono-ig{
+  max-width: 40px;
+
 }
 
 }
