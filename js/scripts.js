@@ -6,3 +6,9 @@
 //
 // Scripts
 // 
+
+// Scripts
+$("body").prepend('<div id="bg-img"></div>');
+//Declaración de métodos encadenados
+$("#bg-img").delay(3000)
+            .fadeOut(2000);
