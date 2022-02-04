@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Grita Mamucha</title>
+        <!-- Favicon-->
+        <link rel="icon"  href="" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body >
+        <section  class="section-bg">
+            <div class="container px-4 px-lg-5">
+                <div class="col-titulo"><img src="img/titulo.png" class="img-titulo"></div>
+                <div class="row gx-4 gx-lg-5 ">
+                    <div class="col-lg-6 col-md-12 text-center ">
+                        <div class="mt-5 col-boca">
+                            <div id="img-boca"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 text-center ">
+                        <div class="mt-5 ">
+                           <a href="#"  id="btn"><div class="boton"><h3>GRITA, Mamucha</h3></div></a> 
+                        <br>
+                        <a href="https://www.besucherstatistiken.com" title="kostenloser besucherzähler" class="no-contador"><img class="img-contador" src="https://counter2.stat.ovh/private/besucherstatistiken.php?c=5kapap4xs16uj44b9q7aneadrrjrbr47" title="kostenloser besucherzähler" alt="kostenloser besucherzähler"></a>  
+                        
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </section>
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+
+        <script>
+            document.getElementById("btn").addEventListener("touchstart", imgOn);
+            document.getElementById("btn").addEventListener("touchend", imgOf);    
+            document.getElementById("btn").addEventListener("mousedown", imgOnDESK);
+            document.getElementById("btn").addEventListener("mouseup", imgOfDESK);
+            function imgOnDESK() {
+                  document.getElementById("img-boca").style.backgroundImage = "url(../img/boca2.png)";
+                }
+                function imgOfDESK () {
+                  document.getElementById("img-boca").style.backgroundImage = "url(../img/boca1.png)";
+                }
+                function imgOn() {
+                  document.getElementById("img-boca").style.backgroundImage = "url(../img/boca2.png)";
+                }
+                function imgOf() {
+                  document.getElementById("img-boca").style.backgroundImage = "url(../img/boca1.png)";
+                }
+            </script>
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+    </body>
+</html>
