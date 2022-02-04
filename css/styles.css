@@ -11588,7 +11588,7 @@ a:link, a:visited, a:active {
 
 /*----------- version-mobile---------- */
 
-@media (max-width:1400px) {
+@media (max-width:1600px) {
 .esp-button-titulo{
   height: 0px;
 }
