@@ -11470,6 +11470,7 @@ header.masthead h1, header.masthead .h1 {
 
 
 /*----------------CSS MNDRN--------------- */
+
 /*----------------CSS MNDRN--------------- */
 #bg-img{
   width:100%;
@@ -11634,7 +11635,7 @@ a:link, a:visited, a:active {
 }
 
 .img-contador {
-  width: 160px;
+  width: 150px;
 }
 
 #bg-img{
@@ -11649,6 +11650,10 @@ a:link, a:visited, a:active {
 
 body{
   background-image: url("../img/fondo2-mb.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   
 }
 
@@ -11668,7 +11673,7 @@ body{
 }
 
 .icono-ig{
-  max-width: 40px;
+  max-width: 30px;
 
 }
 
