@@ -11470,17 +11470,35 @@ header.masthead h1, header.masthead .h1 {
 
 
 /*----------------CSS MNDRN--------------- */
+/*----------------CSS MNDRN--------------- */
+#bg-img{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  background:url("../img/fondo1.jpg");
+  background-position: center;
+  z-index:2;
+  }
+
+body{
+  background-image: url("../img/fondo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
 .section-bg{
   padding-top: 100px;
   padding-bottom: 80px;
-  background-image: url("../img/fondo2.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+
+ 
 }
+
+
 
 .boton{
   background-color: #FFF9F5;
@@ -11490,7 +11508,6 @@ header.masthead h1, header.masthead .h1 {
   box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-  
   
 }
 
@@ -11516,6 +11533,7 @@ header.masthead h1, header.masthead .h1 {
 
 .col-boca{
   height: 400px;
+  padding: 0 80px;
 }
 
 a:link, a:visited, a:active {
@@ -11539,6 +11557,36 @@ a:link, a:visited, a:active {
   pointer-events: none;
   cursor: default;
 }
+.icono-ig{
+  max-width: 55px;
+  float: right;
+}
+
+
+.img-contador{
+  width: 160px;
+
+}
+
+.esp-button-contador{
+  height: 150px;
+}
+
+.esp-top-btn, .esp-top-contador{
+  height: 120px;
+}
+.esp-button-btn{
+  height: 100px;
+}
+.esp-top-contador{
+  height: 100px;
+}
+
+.esp-button-titulo{
+  height: 30px;
+}
+
+
 
 /*----------- version-mobile---------- */
 
@@ -11546,18 +11594,75 @@ a:link, a:visited, a:active {
   .boton{
     margin: 0px;
   }
+  .col-boca {
+    height: 400px;
+    padding: 0 30px;
+}
+
 }
 
 @media (max-width:991px) {
+  .section-bg{
+    height: auto;
+  }
 
   .img-titulo {
     width: 80%;
+}
+.icono-ig{
+  float: inherit;
+}
+
+.esp-button-contador{
+  height: 50px;
+}
+
+.esp-top-btn{
+  height: 40px;
+}
+
+.col-boca {
+  height: 450px;
+  padding: 0 140px;
+}
+
+.esp-button-btn, .esp-top-contador{
+  height: 100px;
+}
+.esp-top-btn {
+  height: 50px;
+}
+
+.img-contador {
+  width: 200px;
+}
+
+#bg-img{
+
+  background:url("../img/fondo1-mb.jpg");
+  background-position: center;
+  z-index:2;
+  }
+
+body{
+  background-image: url("../img/fondo2-mb.jpg");
+  
 }
 
 
 }
 
 @media (max-width:768px) {
+  .col-boca {
+    height: 450px;
+    padding: 0 55px;
+  }
+  .esp-button-btn, .esp-top-contador, .esp-button-btn{
+    height: 80px;
+  }
+  .img-titulo {
+    width: 90%;
+}
 
 }
 
@@ -11565,16 +11670,37 @@ a:link, a:visited, a:active {
 @media (max-width:460px) {
 
   .img-titulo {
-    width: 90%;
+    width: 100%;
+}
+
+.col-boca {
+  height: 350px;
+  padding: 0 30px;
+  margin-top: 35px!important;
+}
+.esp-button-btn, .esp-top-contador, .esp-button-btn, .esp-top-btn{
+  height: 50px;
+}
+
+.div-botones{
+  margin-top: 0px!important;
 }
 
 .boton h3{
-
   font-size: 28px;
 }
+
+.esp-button-titulo{
+  height: 0px;
 }
 
-
+.section-bg{
+    padding-top: 75px;
+}
+.esp-button-contador{
+  height: 0px;
+}
+}
 @media (max-width:380px) {
 
 
